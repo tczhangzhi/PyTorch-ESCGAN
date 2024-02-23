@@ -4,12 +4,12 @@
 
 This is the official implementation of the paper "Beyond Mimicking Under-Represented Emotions: Deep Data Augmentation with Emotional Subspace Constraints for EEG-Based Emotion Recognition". 
 
-[Zhi Zhang](https://github.com/tczhangzhi)<sup>1,2</sup>, [Sheng-hua Zhong](https://sheng-hua-zhong.weebly.com/)<sup>1,*</sup>, [Yan Liu](https://www4.comp.polyu.edu.hk/~csyliu/)<sup>2</sup>,
+[Zhi Zhang](https://github.com/tczhangzhi)<sup>1,2</sup>, [Sheng-hua Zhong](https://sheng-hua-zhong.weebly.com/)<sup>1,*</sup>, [Yan Liu](https://www4.comp.polyu.edu.hk/~csyliu/)<sup>2</sup>
 
 <sup>1</sup>Shen Zhen University, <sup>2</sup>The Hong Kong Polytechnic University.
 
 <div align="center">
-    <img src="assets/framework.pdf">
+    <img src="assets/framework.jpg">
 </div>
 
 ## Abstract
