@@ -20,7 +20,7 @@ In recent years, using Electroencephalography (EEG) to recognize emotions has ga
 
 In order to help readers reproduce the experimental results of this paper easily, we will open-source our study following this roadmap:
 
-- [ ] Organize and open-source research codes (by March 15)
+- [x] Organize and open-source research codes (by March 15)
 - [ ] Provide a quick start guide to help users get started with the project quickly (by March 22)
 - [ ] Refactor our research codes into plug-and-play features suitable for different data augmentation scenarios (by April 5)
 
@@ -57,6 +57,6 @@ If you find this code useful for your research, please cite:
     title={Beyond Mimicking Under-Represented Emotions: Deep Data Augmentation with Emotional Subspace Constraints for {EEG}-Based Emotion Recognition},
     author={Zhi Zhang and Shenghua Zhong and Yan Liu},
     year={2024},
-    booktitle={AAAI 2024}
+    booktitle={Proceedings of the Association for the Advancement of Artificial Intelligence Conference}
 }
 ```

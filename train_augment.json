@@ -1,0 +1,18 @@
+{
+  "dataset": {
+    "_type": "choice",
+    "_value": [
+      "amigos",
+      "deap",
+      "seed"
+    ]
+  },
+  "target": {
+    "_type": "choice",
+    "_value": [
+      "valence",
+      "arousal",
+      "emotion"
+    ]
+  }
+}

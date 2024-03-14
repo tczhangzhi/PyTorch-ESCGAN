@@ -37,3 +37,10 @@
 
 # Python
 */__pycache__
+
+# Data
+/tmp_in
+/tmp_out
+
+# Weight files
+/release

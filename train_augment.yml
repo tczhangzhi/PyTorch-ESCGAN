@@ -1,0 +1,17 @@
+authorName: default
+experimentName: train_augment
+trialConcurrency: 4
+maxTrialNum: 999
+trainingServicePlatform: local
+localConfig:
+  useActiveGpu: True
+  gpuIndices: 0,1,2,3
+searchSpacePath: ./train_augment.json
+useAnnotation: false
+tuner:
+  builtinTunerName: GridSearch
+  gpuIndices: 0,1,2,3
+trial:
+  command: PYTHONPATH=./ python train_augment.py
+  codeDir: .
+  gpuNum: 1

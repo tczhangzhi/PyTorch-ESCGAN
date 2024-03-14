@@ -1,0 +1,17 @@
+authorName: default
+experimentName: train_gan
+trialConcurrency: 4
+maxTrialNum: 999
+trainingServicePlatform: local
+localConfig:
+  useActiveGpu: True
+  gpuIndices: 1,2,3,4
+searchSpacePath: ./train_gan.json
+useAnnotation: false
+tuner:
+  builtinTunerName: GridSearch
+  gpuIndices: 1,2,3,4
+trial:
+  command: PYTHONPATH=./ python train_gan.py
+  codeDir: .
+  gpuNum: 1
