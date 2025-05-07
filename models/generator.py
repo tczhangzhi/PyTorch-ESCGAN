@@ -220,7 +220,9 @@ class ESCGenerator(nn.Module):
 
         x = label_emb * z
 
-        x = self.deconv1(z)
+        # ablate control signal
+        # x = self.deconv1(z)
+        x = self.deconv1(x)
         x = self.deconv2(x)
         x = self.deconv3(x)
         x = self.deconv4(x)
